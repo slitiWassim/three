@@ -3,7 +3,7 @@
 <head>
     <title>Activités three.js</title>
        <meta charset="UTF-8"/>
-       <script src="Js/three.min.js" ></script>
+       <script src="three.min.js" ></script>
 </head>
 
 
@@ -26,7 +26,7 @@ camera.position.z=10;
 renderer.setSize(window.innerWidth,window.innerHeight);
 document.body.appendChild(renderer.domElement);
 var  geometry = new THREE.BoxGeometry(1,1,1);
-map=new THREE.TextureLoader().load( "textures/crate.gif" );
+map=new THREE.TextureLoader().load( "crate.gif" );
 var material = new THREE.MeshBasicMaterial( {map} );
 //var material=new THREE.MeshNormalMaterial({map});
 
